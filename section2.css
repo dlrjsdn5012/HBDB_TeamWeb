@@ -90,6 +90,34 @@ color: #000000;
     color: white;
 }
 
+.circle6{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1603px;
+    top: -150px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
+
+.circle7{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1603px;
+    top: 550px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
+
 .beigeline {
     position: absolute;
     width: 1500px;
