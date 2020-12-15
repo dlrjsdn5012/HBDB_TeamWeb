@@ -1,0 +1,68 @@
+/* 구성원소개 섹션 */
+/* 2020.12.15.오전 11시 */
+
+
+
+
+
+
+.section4 {
+
+    display: flex;
+    position: relative;
+     margin: auto;
+    justify-content: center;
+    background-color: aqua;
+    height: 1022px;
+    width: 1440px;
+    opacity: 0.5;
+     top:4000px; 
+}
+
+
+
+.sec4testbox{
+    
+    margin: 30% 0;
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+    background-color: red;
+   
+}
+
+.sec4testbox2{
+    margin: 30% 0;
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+    background-color: black;
+
+}
+
+.sec4testbox3{
+    margin: 30% 0;
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+    background-color: yellow;
+
+}
+
+.sec4testbox4{
+    margin: 30% 0;
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+    background-color: blue;
+
+}
+
+.sec4testbox5{
+    margin: 30% 0;
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+    background-color: green;
+
+}
