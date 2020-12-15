@@ -1,36 +1,34 @@
 .section3 {
     position : relative;
     top : 1000px;
-    width : 1890px;
+    width : auto;
     height : 1890px;
 
 }
 
 .value {
     position: relative;
-    width: 1890px;
     height: 1890px;
-    border-top:1px solid black;  
-    border-bottom:1px solid black;  
 }
 
 .firstValue {
-width: 1890px;
-height: 630px;
-left: 0px;
-background: rgba(209, 219, 235, 0.76);
+    height: 630px;
+    left: 0px;
+    background: rgba(209, 219, 235, 0.76);
+    border-top : 1px solid gray;
 }
 
 .secondValue {
-    width: 1890px;
     height: 630px;
     left: 0px;
     background: white;
+    border-top : 1px solid gray;
     }
 
 .thirdValue {
-    width: 1890px;
     height: 630px;
     left: 0px;
     background: #d8bea3;
+    border-top : 1px solid gray;
+    border-bottom : 1px solid gray;
 }
