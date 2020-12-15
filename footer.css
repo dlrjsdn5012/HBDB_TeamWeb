@@ -1,0 +1,28 @@
+.box{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 200px;
+    width: 250px;
+    height: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.email{
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 35px;
+    color: #000000;
+}
