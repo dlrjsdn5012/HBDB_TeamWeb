@@ -3,12 +3,12 @@
   height: 1022px;
   position: relative;
   border-bottom: 1px solid black;
-  background-color: #D1DBEB;
+  /* background-image: url(./image/1.jpeg); */
 }
 
 #vision {
-  margin: 0%;
   padding-top: 100px;
+  padding-bottom: 50px;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
