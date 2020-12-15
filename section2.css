@@ -1,10 +1,10 @@
 .section2 {
-/* 로드맵(종이책의 일생) */
+    width: 1440px;
+    height: 1022px;
+}
 
-
-position: absolute;
-width: 485px;
-height: 40px;
+.roadmap{
+position: relative;
 left: 23px;
 top: 1041px;
 
@@ -15,110 +15,72 @@ font-size: 30px;
 line-height: 35px;
 
 color: #000000;
+}
 
+.circle {
+    display:flex;
+}
+.circle1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 231px;
+    top: 200px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
 
+.circle2{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 583px;
+    top: 200px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
 
-/* Ellipse 2 */
+.circle3{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 923px;
+    top: 200px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
 
+.circle4{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 1263px;
+    top: 200px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
 
-position: absolute;
-width: 150px;
-height: 150px;
-left: 231px;
-top: 1342px;
-
-background: #3E6C9C;
-
-
-/* Ellipse 4 */
-
-
-position: absolute;
-width: 150px;
-height: 150px;
-left: 923px;
-top: 1342px;
-
-background: #3E6C9C;
-
-
-/* Ellipse 3 */
-
-
-position: absolute;
-width: 150px;
-height: 150px;
-left: 583px;
-top: 1342px;
-
-background: #3E6C9C;
-
-
-/* 생산 */
-
-
-position: absolute;
-width: 64px;
-height: 34px;
-left: 274px;
-top: 1400px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-
-color: #FFFFFF;
-
-
-
-/* 유통 */
-
-
-position: absolute;
-width: 64px;
-height: 34px;
-left: 625px;
-top: 1400px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-
-color: #FFFFFF;
-
-
-
-/* 판매 */
-
-
-position: absolute;
-width: 64px;
-height: 34px;
-left: 966px;
-top: 1400px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-
-color: #FFFFFF;
-
-
-
-/* Line 6 */
-
-
-position: absolute;
-width: 1436px;
-height: 0px;
-left: 252px;
-top: 1417px;
-
-border: 5px solid #E2B384;
+.beigeline {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    left: 252px;
+    top: 170px;
+    border-bottom: 5px solid #E2B384;
 }
