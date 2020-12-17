@@ -1,5 +1,5 @@
 /* 구성원소개 섹션 */
-/* 2020.12.15.오전 11시 */
+/* 2020.12.17.오전 9시 */
 
 .section4 {
     display: flex;
@@ -11,6 +11,13 @@
     width: auto;
     opacity: 0.5;
 
+
+}
+p {
+    position: absolute;
+  background-color: red;
+  margin: 120px;  
+  font-size: 45px;
 
 }
 
