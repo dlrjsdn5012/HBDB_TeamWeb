@@ -4,7 +4,7 @@
 .section4 {
     display: flex;
     position: relative;
-    top:614px;
+    top:864px;
     justify-content: center;
     background-color: aqua;
     height: 1022px;
@@ -13,14 +13,13 @@
 
 
 }
-p {
+/*{
     
     position: absolute;
-  background-color: red;
   margin: 120px;  
   font-size: 45px;
 
-}
+}*/
 
 .sec4testbox{
     position : relative;
