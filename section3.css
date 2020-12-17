@@ -26,6 +26,8 @@
     height: 400px;
     left: 0px;
     background: #6C92C7;
+    position: relative;
+    top : -540px;
 }
 
 .firstValueLine {
