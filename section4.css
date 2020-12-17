@@ -10,12 +10,12 @@
 
     display: flex;
     position: relative;
-     margin: auto;
     justify-content: center;
     background-color: aqua;
     height: 1022px;
-    width: 1440px;
+    width: auto;
     opacity: 0.5;
+
     
 }
 
