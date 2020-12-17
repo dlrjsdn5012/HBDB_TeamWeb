@@ -21,7 +21,7 @@ color: #000000;
     display:flex;
 }
 .circle1 {
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
     left: 231px;
@@ -35,7 +35,7 @@ color: #000000;
 }
 
 .circle2{
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
     left: 583px;
@@ -49,7 +49,7 @@ color: #000000;
 }
 
 .circle3{
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
     left: 923px;
@@ -63,7 +63,7 @@ color: #000000;
 }
 
 .circle4{
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
     left: 1263px;
@@ -76,9 +76,51 @@ color: #000000;
     color: white;
 }
 
+.circle5{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1603px;
+    top: 200px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
+
+.circle6{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1603px;
+    top: -150px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
+
+.circle7{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1603px;
+    top: 550px;
+    background: #3E6C9C;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+}
+
 .beigeline {
-    position: relative;
-    width: 1000px;
+    position: absolute;
+    width: 1500px;
     height: 100px;
     left: 252px;
     top: 170px;

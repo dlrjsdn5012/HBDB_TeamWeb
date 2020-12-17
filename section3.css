@@ -1,36 +1,70 @@
 .section3 {
     position : relative;
     top : 1000px;
-    width : 1890px;
+    width : auto;
     height : 1890px;
-
 }
 
 .value {
     position: relative;
-    width: 1890px;
     height: 1890px;
-    border-top:1px solid black;  
-    border-bottom:1px solid black;  
 }
 
 .firstValue {
-width: 1890px;
-height: 630px;
-left: 0px;
-background: rgba(209, 219, 235, 0.76);
+    height: 300px;
+    left: 0px;
+    background: rgba(209, 219, 235, 0.76);
+    border-top : 1px solid gray;
 }
 
 .secondValue {
-    width: 1890px;
-    height: 630px;
+    height: 900px;
     left: 0px;
     background: white;
     }
 
 .thirdValue {
-    width: 1890px;
-    height: 630px;
+    height: 300px;
     left: 0px;
     background: #d8bea3;
+    border-bottom : 1px solid gray;
 }
+
+.firstValueLine {
+    border-top : 1px solid gray;
+    transform : rotate(350deg);
+    position : relative;
+    top : 170px;
+}
+
+.secondValueLine {
+    border-top : 1px solid gray;
+    transform : rotate(10deg);
+    position : relative;
+    top : -170px;
+}
+
+.trione {
+    width : 0px; 
+    height : 0px;
+    border-top : 338px solid rgba(209, 219, 235, 0.76);
+    border-bottom : 50px solid none;
+    border-right : 1915px solid transparent;
+    border-left : 0px solid transparent;
+    position : relative;
+    top : 274px;
+}
+
+.tritwo {
+    width : 0px; 
+    height : 0px;
+    border-top : 50px solid none;
+    border-bottom : 338px solid #d8bea3;
+    border-right : 1915px solid transparent;
+    border-left : 0px solid transparent;
+    position : absolute;
+    top : 865px;
+}
+
+
+
