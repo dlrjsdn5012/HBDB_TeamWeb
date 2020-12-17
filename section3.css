@@ -13,32 +13,28 @@
 .firstValue {
     height: 400px;
     left: 0px;
-    background: rgba(209, 219, 235, 0.76);
-    border-top : 1px solid gray;
+    background: #D1DBEB;
 }
 
 .secondValue {
     height: 950px;
     left: 0px;
-    background: white;
+    background: #B3C9E7;
     }
 
 .thirdValue {
     height: 400px;
     left: 0px;
-    background: #d8bea3;
-    border-bottom : 1px solid gray;
+    background: #6C92C7;
 }
 
 .firstValueLine {
-    border-top : 1px solid gray;
     transform : rotate(350deg);
     position : relative;
     top : 170px;
 }
 
 .secondValueLine {
-    border-top : 1px solid gray;
     transform : rotate(10deg);
     position : relative;
     top : -170px;
@@ -47,7 +43,7 @@
 .trione {
     width : 0px; 
     height : 0px;
-    border-top : 338px solid rgba(209, 219, 235, 0.76);
+    border-top : 338px solid #D1DBEB;
     border-bottom : 50px solid none;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
@@ -59,12 +55,14 @@
     width : 0px; 
     height : 0px;
     border-top : 50px solid none;
-    border-bottom : 338px solid #d8bea3;
+    border-bottom : 338px solid #6C92C7;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : absolute;
     top : 1015px;
 }
+
+
 
 .firstValueMainText {
     position : relative;
