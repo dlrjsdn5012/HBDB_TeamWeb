@@ -2,6 +2,7 @@
 
 .section3 {
     position : relative;
+    top : 80px;
     width : auto;
     height : 1890px;
 }
@@ -26,7 +27,7 @@
     left: 0px;
     background: #779dd1;
     position: relative;
-    top : -423px;
+    top : -418px;
     z-index: 3;
 }
 
