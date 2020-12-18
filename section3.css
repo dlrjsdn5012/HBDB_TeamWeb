@@ -1,13 +1,9 @@
+/* 노건들 배경!! */
+
 .section3 {
     position : relative;
-    /* top : 1000px; */
     width : auto;
     height : 1890px;
-}
-
-.value {
-    position: relative;
-    height: 1890px;
 }
 
 .firstValue {
@@ -20,6 +16,9 @@
     height: 950px;
     left: 0px;
     background: #B3C9E7;
+    position: relative;
+    top : -338px;
+    z-index: 1;
     }
 
 .thirdValue {
@@ -27,34 +26,23 @@
     left: 0px;
     background: #6C92C7;
     position: relative;
-    top : -540px;
-}
-
-.firstValueLine {
-    transform : rotate(350deg);
-    position : relative;
-    top : 170px;
-}
-
-.secondValueLine {
-    transform : rotate(10deg);
-    position : relative;
-    top : -170px;
+    top : -337px;
+    z-index: 3;
 }
 
 .trione {
-    width : 0px; 
+    width : auto; 
     height : 0px;
     border-top : 338px solid #D1DBEB;
     border-bottom : 50px solid none;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : relative;
-    top : 199px;
+    z-index: 2;
 }
 
 .tritwo {
-    width : 0px; 
+    width : auto; 
     height : 0px;
     border-top : 50px solid none;
     border-bottom : 338px solid #6C92C7;
@@ -62,57 +50,40 @@
     border-left : 0px solid transparent;
     position : absolute;
     top : 1015px;
+    z-index: 2;
+}
+
+.inner-container {
+    width : 1600px;
+    margin : 0 auto;
+    position : relative;
 }
 
 
+/* 텍스트!! */
 
-.firstValueMainText {
-    position : relative;
-    top : 170px;
-    font-size : 25px;
-    font-weight: bold;
-    left : 150px;
-}
-
-.firstValueSubText {
-    position : relative;
-    top : 200px;
-    font-size : 19px;
-    left : 150px;
+.section3 {
     line-height: 35px;
+    font-size: 18px;
 }
 
-.secondValueMainText {
-    position : relative;
-    top : 400px;
-    right : -1000px;
+.firstValueText {
+    padding-top : 170px;
+}
+
+.secondValueText {
+    float : right;
+    padding-top : 400px;
+}
+
+#firstValueMainText, #secondValueMainText, #thirdValueMainText  {
+    margin-bottom : 20px;
     font-size : 25px;
     font-weight: bold;
 }
 
-.secondValueSubText {
-    position : relative;
-    top : 430px;
-    right : 190px;
+#secondValueMainText, #secondValueSubText {
+    float: right;
     text-align: right;
-    font-size : 19px;
-    line-height: 35px;
-    
 }
-
-.thirdValueMainText {
-    position : relative;
-    top : -30px;
-    font-size : 25px;
-    font-weight: bold;
-    left : 150px;
-}
-
-.thirdValueSubText {
-    position : relative;
-    font-size : 19px;
-    left : 150px;
-    line-height: 35px;
-}
-
 
