@@ -3,13 +3,14 @@
   height: 800px;
   text-align: center;
   position: relative;
+  background: url(./image/bookstore2.jpeg);
+  background-size: cover;
 }
 
 .section1::before{
   content: "";
-  background: url(./image/bookstore2.jpeg);
-  background-size: cover;
-  opacity: 0.3;
+  opacity: 0.6;
+  background-color: black;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -17,20 +18,22 @@
   bottom: 0px;
 }
 
+.section1 p {
+  position: relative;
+  color: #ffffff; 
+}
+
 #vision {
   padding-top: 160px;
   padding-bottom: 50px;
   font-size: 50px;
   font-weight: bold;
-  position: relative;
-  color: #000000;
+
 }
 
 #vision-content {
   font-size: 25px;
   line-height: 50px;
-  position: relative;
-  color: #000000;
 }
 
 #whatIsValuableBook {
@@ -38,13 +41,9 @@
   padding-bottom: 50px;
   font-size: 50px;
   font-weight: bold;
-  position: relative;
-  color: #000000;
 }
 
 #whatIsValuableBook-content {
   font-size: 25px;
   line-height: 50px;
-  position: relative;
-  color: #000000;
 }
