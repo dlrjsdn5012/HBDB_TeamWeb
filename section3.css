@@ -24,9 +24,9 @@
 .thirdValue {
     height: 400px;
     left: 0px;
-    background: #6C92C7;
+    background: #779dd1;
     position: relative;
-    top : -337px;
+    top : -423px;
     z-index: 3;
 }
 
@@ -45,7 +45,7 @@
     width : auto; 
     height : 0px;
     border-top : 50px solid none;
-    border-bottom : 338px solid #6C92C7;
+    border-bottom : 338px solid #779dd1;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : absolute;
