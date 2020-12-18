@@ -1,3 +1,9 @@
+footer {
+    position : relative;
+    top : -1143px;
+    height: 10px;
+}
+
 
 .box{
     text-align: center;
@@ -18,9 +24,8 @@
     text-align: center;
     margin: auto;
     width: auto;
-    height: auto;
+    /* height: 10px; */
     position: relative;
-    margin-bottom : 50px;
 
     font-size: 20px;
     color: #000000;
