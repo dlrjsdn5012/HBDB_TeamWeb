@@ -1,9 +1,8 @@
 header {
   position: fixed;
-  width: auto;
+  display: flex;
   height: 80px;
   font-weight: bold;
-  display: flex;
   background-color: white;
   z-index: 9;
   width: 100%;
@@ -11,6 +10,8 @@ header {
 }
 
 #title {
+  flex-grow: 1;
+  display: block;
   font-size: 50px;
   line-height: 82px;
   margin-left: 35px;
@@ -20,7 +21,7 @@ header {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.sections {
+#section2, #section3, #section4  {
   padding-top: 80px;
 }
 
@@ -30,30 +31,30 @@ header {
 }
 
 .header-btns a {
+  display: block;
+  float: left;
   color: #000;
   text-align: center;
-  margin-left: 20px;
+  /* padding: 18px 30px 18px 30px;  */
+  border: 2px solid rgb(182, 182, 182);
+  width: 140px;
+  height: 40px;
+  margin-left: 60px;
+  line-height: 40px;
+  transition: border 0.5s, background-color 0.5s, color 0.5s;
 }
 
-.header-btns {       
-  display: flex;
-  width: 120px;
-  height: 35px;
-  line-height: 35px;
-  padding: 7px 18px;
-  text-align: center;
-  border: 2px solid rgb(182, 182, 182);
-  margin-top: 15px;
-  margin-right: 50px;
-  font-weight: bold;
-  transition: border 0.5s, background-color 0.5s, color 0.5s;
+.header-btns {
+  padding-right: 60px;
+  overflow: hidden;
+  margin-top: 20px;
   } 
   
-  .header-btns:hover {
-    background-color: #B3C9E7;
-    border: 2px solid #B3C9E7;
-  }
+.header-btns a:hover {
+  background-color: #B3C9E7;
+  border: 2px solid #B3C9E7;
+}
 
-  .header-btns #header-btn2 {
-    margin-left: 15px;
-  }
+.header-btn2, .header-btn3, .header-btn4 {
+  /* margin-left: 70px; */
+}
