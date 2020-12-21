@@ -55,7 +55,7 @@
 }
 
 .inner-container {
-    width : 1600px;
+    width : 1200px;
     margin : 0 auto;
     position : relative;
 }
@@ -74,7 +74,7 @@
 
 .secondValueText {
     float : right;
-    padding-top : 400px;
+    padding-top : 350px;
 }
 
 #firstValueMainText, #secondValueMainText, #thirdValueMainText  {
