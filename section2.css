@@ -28,7 +28,7 @@ button {
     height: 170px;
     left: 140px;
     top: 400px;
-    background: #3E6C9C;
+    background: #243B5B;
     align-items: center;
     display:flex;
     color: white;
@@ -44,7 +44,7 @@ button {
     height: 170px;
     left: 492px;
     top: 400px;
-    background: #3E6C9C;
+    background: #243B5B;
     align-items: center;
     display:flex;
     color: white;
@@ -60,7 +60,7 @@ button {
     height: 170px;
     left: 844px;
     top: 400px;
-    background: #3E6C9C;
+    background: #243B5B;
     align-items: center;
     display:flex;
     color: white;
@@ -76,7 +76,7 @@ button {
     height: 170px;
     left: 1196px;
     top: 400px;
-    background: #3E6C9C;
+    background: #243B5B;
     align-items: center;
     display:flex;
     color: white;
@@ -92,7 +92,7 @@ button {
     height: 170px;
     left: 1548px;
     top: 400px;
-    background: #3E6C9C;
+    background: #243B5B;
     align-items: center;
     display:flex;
     color: white;
@@ -108,7 +108,7 @@ button {
     height: 170px;
     left: 1548px;
     top: 52px;
-    background: #3E6C9C;
+    background: #243B5B;
     align-items: center;
     display:flex;
     color: white;
@@ -124,7 +124,7 @@ button {
     height: 170px;
     left: 1548px;
     top: 752px;
-    background: #3E6C9C;
+    background: #243B5B;
     align-items: center;
     display:flex;
     color: white;
@@ -139,9 +139,9 @@ button {
     width: 1400px;
     height: 9px;
     left: 209px;
-    border-bottom: 5px solid #E2B384;
+    border-bottom: 5px solid #DFC9A4;
     top: 485px;
-    background-color: #E2B384;
+    background-color: #DFC9A4;
 }
 
 .diagonal1 {
@@ -150,7 +150,7 @@ button {
     height: 600px;
     left: 1430px;
     top: 400px;
-    background-color: #E2B384;
+    background-color: #DFC9A4;
     transform: rotate(-45deg);
   }
 
@@ -160,7 +160,7 @@ button {
     height: 500px;
     left: 1430px;
     top: 10px;
-    background-color: #E2B384;
+    background-color: #DFC9A4;
     transform: rotate(45deg);
   }
 
@@ -208,7 +208,7 @@ button {
     display: none;
     position: absolute;
     color: black;
-    top: 30px;
+    top: 20px;
     left: 1780px;
     font-size: 20px;
     width: 215px;
