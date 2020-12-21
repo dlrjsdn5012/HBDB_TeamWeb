@@ -1,235 +1,106 @@
 .section2 {
     width: auto;
-    height: 1022px;
+    height: 1050px;
 }
 
 .roadmap{
-position: relative;
-left: 23px;
-font-size: 40px;
-line-height: 35px;
-
-color: #000000;
+    position: relative;
+    font-size: 40px;
+    color: #000000;
 }
 
 button {
-    font-family: 'MaruBuri-Regular';
+  font-family: 'MaruBuri-Regular';
   font-weight: normal;
   font-style: normal;
-}
-
-.circle {
-    display:flex;
+  color: white;
+  position: relative;
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  background: #243B5B;
+  font-size: 35px;
+  margin-top: 80px;
+  margin-left: 10%;
 }
 
 .circle1 {
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 140px;
-    top: 400px;
-    background: #243B5B;
-    align-items: center;
-    display:flex;
-    color: white;
-    font-size: 35px;
-    justify-content: center;
-    border-radius: 100px;
-
+    margin-left: 0%;
 }
 
-.circle2{
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 492px;
-    top: 400px;
-    background: #243B5B;
-    align-items: center;
-    display:flex;
-    color: white;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 100px;
-
+.circle6 {
+    margin-left: 88.3%;
+    margin-top: 5%;
 }
 
-.circle3{
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 844px;
-    top: 400px;
-    background: #243B5B;
-    align-items: center;
-    display:flex;
-    color: white;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 100px;
-
-}
-
-.circle4{
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 1196px;
-    top: 400px;
-    background: #243B5B;
-    align-items: center;
-    display:flex;
-    color: white;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 100px;
-
-}
-
-.circle5{
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 1548px;
-    top: 400px;
-    background: #243B5B;
-    align-items: center;
-    display:flex;
-    color: white;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 100px;
-
-}
-
-.circle6{
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 1548px;
-    top: 52px;
-    background: #243B5B;
-    align-items: center;
-    display:flex;
-    color: white;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 100px;
-
-}
-
-.circle7{
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 1548px;
-    top: 752px;
-    background: #243B5B;
-    align-items: center;
-    display:flex;
-    color: white;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 100px;
-
+.circle7 {
+    margin-left: 88.3%;
 }
 
 .beigeline {
     position: absolute;
-    width: 1400px;
+    top : 56%;
+    width: 1200px;
     height: 9px;
-    left: 209px;
-    border-bottom: 5px solid #DFC9A4;
-    top: 485px;
     background-color: #DFC9A4;
 }
 
 .diagonal1 {
     position: absolute;
     width: 11px;
-    height: 600px;
-    left: 1430px;
-    top: 400px;
+    height: 275px;
+    margin-left: 82%;
+    top: 370px;
     background-color: #DFC9A4;
     transform: rotate(-45deg);
   }
 
-  .diagonal2 {
+.diagonal2 {
     position: absolute;
     width: 11px;
-    height: 500px;
-    left: 1430px;
-    top: 10px;
+    height: 275px;
+    margin-left: 82%;
+    top: 110px;
     background-color: #DFC9A4;
     transform: rotate(45deg);
   }
 
-  .SSSM {
-      display: none;
-      position: absolute;
-      color: black;
-      top: 610px;
-      left: 125px;
-      font-size: 20px;
-      width: 215px;
-    }
-
-  .UTSM {
+.SM {
     display: none;
     position: absolute;
     color: black;
-    top: 180px;
-    left: 470px;
     font-size: 20px;
     width: 215px;
 }
-
-.PMSM {
-    display: none;
-    position: absolute;
-    color: black;
+#sssmc {
+    margin-left: 0%;
     top: 610px;
-    left: 825px;
-    font-size: 20px;
-    width: 215px;
+  }
+
+#utsmc {
+    top: 180px;
+    margin-left: 20%;
+  }
+
+#pmsmc {
+    top: 610px;
+    margin-left: 20%;
   }
   
-.SYSM {
-    display: none;
-    position: absolute;
-    color: black;
+#sysmc {
     top: 265px;
-    left: 1180px;
-    font-size: 20px;
-    width: 215px;
-}
+    margin-left: 20%;
+  }
 
-.SGSM {
-    display: none;
-    position: absolute;
-    color: black;
+#sgsmc {
     top: 20px;
-    left: 1780px;
-    font-size: 20px;
-    width: 215px;
-}
+  }
 
-.JSYSM {
-    display: none;
-    position: absolute;
-    color: black;
+#jsysmc {
     top: 380px;
-    left: 1780px;
-    font-size: 20px;
-    width: 215px;
-}
+    margin-left: 20%;
+  }
 
-.JHYSM {
-    display: none;
-    position: absolute;
-    color: black;
+#jhysmc {
     top: 730px;
-    left: 1780px;
-    font-size: 20px;
-    width: 215px;
-}
+  }
