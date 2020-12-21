@@ -52,7 +52,7 @@ button:hover {
 
 .beigeline {
     position: absolute;
-    top : 56%;
+    top : 55%;
     width: 1200px;
     height: 9px;
     background-color: #DFC9A4;
@@ -82,27 +82,28 @@ button:hover {
     display: none;
     position: absolute;
     color: black;
-    font-size: 20px;
-    width: 215px;
+    font-size: 18px;
+    width: 150px;
+    text-align: justify;
+    top: 460px;
 }
+
 #sssmc {
     margin-left: 0%;
-    top: 610px;
   }
 
 #utsmc {
-    top: 180px;
-    margin-left: 20%;
+    top: 70px;
+    margin-left: 21.7%;
   }
 
 #pmsmc {
-    top: 610px;
-    margin-left: 20%;
+    margin-left: 43.95%;
   }
   
 #sysmc {
-    top: 265px;
-    margin-left: 20%;
+    top: 175px;
+    margin-left: 65.7%;
   }
 
 #sgsmc {
