@@ -19,8 +19,7 @@
     background: #EDE0CB;
     position: relative;
     top : -338px;
-    z-index: 1;
-    }
+    z-index: 1;2    }
 
 .thirdValue {
     height: 400px;
@@ -59,18 +58,16 @@
 
 /* 텍스트!! */
 
-.section3 {
-    /* color : #DFC9A4; */
-    color : #294572;
-}
 
 .section3 {
     line-height: 35px;
     font-size: 18px;
+    color : #294572;
 }
 
 .firstValueText {
     padding-top : 170px;
+    z-index: 4;
 }
 
 .secondValueText {
@@ -81,9 +78,30 @@
     margin-bottom : 20px;
     font-size : 25px;
     font-weight: bold;
+    color : #294572;
 }
 
-#secondValueMainText, #secondValueSubText {
+
+.secondValueText {
     text-align: right;
+    justify-content: right;
+    padding-left : 489px;
 } 
 
+
+.firstValueText, .secondValueText, .thirdValueText {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.firstValueText:hover, .secondValueText:hover, .thirdValueText:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
