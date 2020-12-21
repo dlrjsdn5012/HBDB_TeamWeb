@@ -9,13 +9,14 @@
 .firstValue {
     height: 400px;
     left: 0px;
-    background: #D1DBEB;
+    background: white;
+    border-top : 5px solid #294572;
 }
 
 .secondValue {
     height: 950px;
     left: 0px;
-    background: #B3C9E7;
+    background: white;
     position: relative;
     top : -338px;
     z-index: 1;
@@ -24,42 +25,46 @@
 .thirdValue {
     height: 400px;
     left: 0px;
-    background: #779dd1;
+    background:white;
     position: relative;
     top : -418px;
     z-index: 3;
+    border-bottom : 5px solid #294572;
 }
 
 .trione {
     /* width : auto;  */
     height : 0px;
-    border-top : 338px solid #D1DBEB;
+    border-top : 338px solid white;
     border-bottom : 50px solid none;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : relative;
     z-index: 2;
+    border-left: solid #294572;
 }
 
 .tritwo {
     /* width : auto;  */
     height : 0px;
     border-top : 50px solid none;
-    border-bottom : 338px solid #779dd1;
+    /* border-bottom : 338px solid #294572; */
+    border-bottom: 338px solid white;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : absolute;
     top : 1015px;
     z-index: 2;
-}
-
-.inner-container {
-    width : 1250px;
-    margin : auto;
+    border-right : #294572;
 }
 
 
 /* 텍스트!! */
+
+.section3 {
+    /* color : #DFC9A4; */
+    color : #294572;
+}
 
 .section3 {
     line-height: 35px;
