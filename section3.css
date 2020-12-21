@@ -2,9 +2,8 @@
 
 .section3 {
     position : relative;
-    top : 80px;
+    margin-top : 100px;
     width : auto;
-    height : 1890px;
 }
 
 .firstValue {
@@ -32,7 +31,7 @@
 }
 
 .trione {
-    width : auto; 
+    /* width : auto;  */
     height : 0px;
     border-top : 338px solid #D1DBEB;
     border-bottom : 50px solid none;
@@ -43,7 +42,7 @@
 }
 
 .tritwo {
-    width : auto; 
+    /* width : auto;  */
     height : 0px;
     border-top : 50px solid none;
     border-bottom : 338px solid #779dd1;
@@ -55,7 +54,7 @@
 }
 
 .inner-container {
-    width : 1200px;
+    width : 1400px;
     margin : 0 auto;
     position : relative;
 }
@@ -73,7 +72,6 @@
 }
 
 .secondValueText {
-    float : right;
     padding-top : 350px;
 }
 
@@ -84,7 +82,6 @@
 }
 
 #secondValueMainText, #secondValueSubText {
-    float: right;
     text-align: right;
-}
+} 
 
