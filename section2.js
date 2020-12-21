@@ -1,15 +1,35 @@
 window.onload = function () {
     var c = document.getElementById("sssmc");
+    var c_switch = false
+
+    var c2 = document.getElementById("utsmc");
 
     document.getElementById('ccc1').addEventListener('click', function () {
-        // if (c.style.display == 'none') { c.style.display = 'block' }
-        // else if (c.style.display == 'block') { c.style.display = 'none' }
-        get_argument(c);
-    })
+
+        if (c_switch == false) {
+            c.style.display = 'block';
+            c_switch = true;
+        }
+        else if (c_switch == true) {
+            c.style.display = 'none'
+            c_switch = false;
+        }
+    });
+
+    document.getElementById('ccc2').addEventListener('click', function () {
+        get_argument(c2);
+    });
 
     function get_argument(arg) {
-        if (arg.style.display == 'none') { arg.style.display = 'block' }
-        else if (arg.style.display = 'block') { arg.style.display == 'none' }
+
+        if (arg_switch == false) {
+            arg.style.display = 'block';
+            arg_switch = true;
+        }
+        else if (arg_switch == true) {
+            arg.style.display = 'none';
+            arg_switch = false;
+        }
     }
 }
 // document.querySelector('.circle1').addEventListener('click', function () {
