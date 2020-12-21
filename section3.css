@@ -9,14 +9,14 @@
 .firstValue {
     height: 400px;
     left: 0px;
-    background: white;
+    background: #F6F0E6;
     border-top : 5px solid #294572;
 }
 
 .secondValue {
     height: 950px;
     left: 0px;
-    background: white;
+    background: #EDE0CB;
     position: relative;
     top : -338px;
     z-index: 1;
@@ -25,7 +25,7 @@
 .thirdValue {
     height: 400px;
     left: 0px;
-    background:white;
+    background:#DCC49C;
     position: relative;
     top : -418px;
     z-index: 3;
@@ -33,30 +33,28 @@
 }
 
 .trione {
-    /* width : auto;  */
+    width : auto; 
     height : 0px;
-    border-top : 338px solid white;
+    border-top : 338px solid #F6F0E6;
     border-bottom : 50px solid none;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : relative;
     z-index: 2;
-    border-left: solid #294572;
 }
 
 .tritwo {
-    /* width : auto;  */
+    width : auto; 
     height : 0px;
     border-top : 50px solid none;
-    /* border-bottom : 338px solid #294572; */
-    border-bottom: 338px solid white;
+    border-bottom : 338px solid #DCC49C;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : absolute;
     top : 1015px;
-    z-index: 2;
-    border-right : #294572;
+    z-index: 3;
 }
+  
 
 
 /* 텍스트!! */
