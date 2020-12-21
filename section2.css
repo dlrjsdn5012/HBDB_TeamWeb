@@ -23,7 +23,7 @@ button {
   background: white;
   border: 5px solid #243B5B;
   font-size: 35px;
-  margin-top: 80px;
+  margin-top: 240px;
   margin-left: 10%;
   cursor: pointer;
   -webkit-transition-duration: 0.3s;
@@ -41,18 +41,30 @@ button:hover {
     margin-left: 0%;
 }
 
-.circle6 {
-    margin-left: 88.3%;
-    margin-top: 3%;
+/* 재사용 */
+.circle5 {
+    position: absolute;
+    margin-top: 38.5%;
+    margin-left: 10%;
 }
 
+/* 소각 */
+.circle6 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 19%;
+}
+
+/* 재활용 */
 .circle7 {
-    margin-left: 88.3%;
+    position: absolute;
+    margin-left: -11%;
+    margin-top: 38.5%;
 }
 
 .beigeline {
     position: absolute;
-    top : 55%;
+    top : 82%;
     width: 1200px;
     height: 9px;
     background-color: #DFC9A4;
@@ -63,7 +75,7 @@ button:hover {
     width: 11px;
     height: 275px;
     margin-left: 82%;
-    top: 350px;
+    top: 330px;
     background-color: #DFC9A4;
     transform: rotate(-45deg);
   }
@@ -71,11 +83,11 @@ button:hover {
 .diagonal2 {
     position: absolute;
     width: 11px;
-    height: 275px;
-    margin-left: 82%;
-    top: 90px;
+    height: 180px;
+    margin-left: 71.5%;
+    top: 400px;
     background-color: #DFC9A4;
-    transform: rotate(45deg);
+    transform: rotate(0deg);
   }
 
 .SM {
@@ -85,7 +97,7 @@ button:hover {
     font-size: 18px;
     width: 150px;
     text-align: justify;
-    top: 460px;
+    top: 440px;
 }
 
 #sssmc {
@@ -93,7 +105,7 @@ button:hover {
   }
 
 #utsmc {
-    top: 70px;
+    top: 50px;
     margin-left: 21.7%;
   }
 
@@ -102,19 +114,21 @@ button:hover {
   }
   
 #sysmc {
-    top: 175px;
+    top: 155px;
     margin-left: 65.7%;
   }
 
 #sgsmc {
-    top: 20px;
+    top: 50px;
+    margin-left: 86.9%;
   }
 
 #jsysmc {
-    top: 380px;
-    margin-left: 20%;
+    top: 680px;
+    margin-left: 86.9%;
   }
 
 #jhysmc {
-    top: 730px;
+    top: 680px;
+    margin-left: 66.3%;
   }
