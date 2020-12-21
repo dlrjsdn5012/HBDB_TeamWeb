@@ -4,24 +4,37 @@
 }
 
 .roadmap{
-    position: relative;
+    margin-top: 15px;
     font-size: 40px;
     color: #000000;
 }
 
 button {
+  border: none;
+  outline: 0;
   font-family: 'MaruBuri-Regular';
   font-weight: normal;
   font-style: normal;
-  color: white;
+  color: #243B5B;
   position: relative;
   border-radius: 100px;
   width: 140px;
   height: 140px;
-  background: #243B5B;
+  background: white;
+  border: 5px solid #243B5B;
   font-size: 35px;
   margin-top: 80px;
   margin-left: 10%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  
+}
+
+button:hover {
+    background-color: #243B5B;
+    color: white;
+    box-shadow: 0 14px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .circle1 {
@@ -30,7 +43,7 @@ button {
 
 .circle6 {
     margin-left: 88.3%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .circle7 {
@@ -50,7 +63,7 @@ button {
     width: 11px;
     height: 275px;
     margin-left: 82%;
-    top: 370px;
+    top: 350px;
     background-color: #DFC9A4;
     transform: rotate(-45deg);
   }
@@ -60,7 +73,7 @@ button {
     width: 11px;
     height: 275px;
     margin-left: 82%;
-    top: 110px;
+    top: 90px;
     background-color: #DFC9A4;
     transform: rotate(45deg);
   }
