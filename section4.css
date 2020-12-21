@@ -3,16 +3,14 @@
 
 .section4 {
     display: flex;
-    position: relative;
-    top:-140px;
+    /* position: relative; */
+    /* top:-140px; */
     justify-content: center;
     /* background-color: aqua; */
-    height: 1022px;
+    /* height: 1022px; */
     width: auto;
-    
-
-
 }
+
 * {
     margin:0;
     padding: 0;
@@ -24,7 +22,7 @@
     grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
     min-height: 100vh;
     grid-gap: 2rem;
-    margin: 300px 0;
+    margin: -200px 0;
 }
 
 .img-container{
