@@ -6,7 +6,7 @@
     /* position: relative; */
     /* top:-140px; */
     justify-content: center;
-    /* background-color: aqua; */
+    background-color: #243B5B;
     /* height: 1022px; */
     width: auto;
 }
@@ -22,7 +22,7 @@
     grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
     min-height: 100vh;
     grid-gap: 2rem;
-    margin: -200px 0;
+    margin: -300px 0;
 }
 
 .img-container{
@@ -32,6 +32,7 @@
 }
 
 .img-container img {
+     
     width: 350px;
     height: 600px;
     object-fit: cover;
@@ -40,25 +41,96 @@
 
 }
 
+.boxoverlay{
+    opacity: 0;
+}
 
-.img-container img:hover{
+.img-container:hover .boxoverlay {
+    opacity: 1;
+}
 
+.img-container:hover img{
+
+    opacity: .5;
 
     transform: scale(1.2);
-
+   
 }
 
 .overcontent {
+ /* top: 5%; */
+}
+
+.sec4box .overcontent {
     position: absolute;
-    top: 45%;
+     margin: 0px 180px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    white-space: nowrap;
+    overflow:hidden;
+  
+}
+.sec4box2 .overcontent {
+
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    white-space: nowrap;
+    overflow:hidden;
+  
+}
+
+
+.sec4box3 .overcontent {
+    position: absolute;
+    
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-transform: uppercase;
     font-size: 30px;
     color: #fff;
+    color: black;
     white-space: nowrap;
     overflow:hidden;
+  
+}
+
+.sec4box4 .overcontent {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    white-space: nowrap;
+    overflow:hidden;
+  
+}
+
+.sec4box5 .overcontent {
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    white-space: nowrap;
+    overflow:hidden;
+  
 }
 
 .overcontent a{
@@ -69,12 +141,6 @@
     padding: 10px;
     cursor: pointer;
 }
-
-.overlay{
-
-    
-}
-
 
 .model {
 

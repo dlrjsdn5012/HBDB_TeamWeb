@@ -4,6 +4,7 @@
     position : relative;
     margin-top : 100px;
     width : auto;
+    
 }
 
 .firstValue {
@@ -19,7 +20,7 @@
     background: #EDE0CB;
     position: relative;
     top : -338px;
-    z-index: 1;2    }
+    z-index: 1;    }
 
 .thirdValue {
     height: 400px;
