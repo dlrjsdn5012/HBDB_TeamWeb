@@ -4,7 +4,9 @@ footer {
     height: 10px;
 }
 
-
+.all{
+    margin-top: 250px;
+}
 .box{
     text-align: center;
     margin: auto;
