@@ -42,16 +42,15 @@ header {
   border: 2px solid rgb(182, 182, 182);
   width: 140px;
   height: 40px;
-  margin-left: 60px;
+  margin-left: 55px;
   line-height: 40px;
   transition: border 0.5s, background-color 0.5s, color 0.5s;
 }
 
 .header-btns {
-  padding-right: 60px;
-  overflow: hidden;
+  padding-right: 50px;
   margin-top: 20px;
-  } 
+} 
   
 .header-btns a:hover {
   background-color: #B3C9E7;
