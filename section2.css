@@ -162,6 +162,7 @@ color: #000000;
   }
 
   .SSSM {
+      display: none;
       position: absolute;
       color: black;
       top: 610px;
@@ -187,8 +188,18 @@ color: #000000;
     font-size: 20px;
     width: 215px;
   }
+  
+.SYSM {
+    position: absolute;
+    color: black;
+    top: 610px;
+    left: 1180px;
+    font-size: 20px;
+    width: 215px;
+}
 
 .SGSM {
+    display: none;
     position: absolute;
     color: black;
     top: 30px;
@@ -198,6 +209,7 @@ color: #000000;
 }
 
 .JSYSM {
+    display: none;
     position: absolute;
     color: black;
     top: 380px;
@@ -207,6 +219,7 @@ color: #000000;
 }
 
 .JHYSM {
+    display: none;
     position: absolute;
     color: black;
     top: 730px;
