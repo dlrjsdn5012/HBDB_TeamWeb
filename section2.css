@@ -172,6 +172,7 @@ color: #000000;
     }
 
   .UTSM {
+    display: none;
     position: absolute;
     color: black;
     top: 180px;
