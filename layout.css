@@ -13,4 +13,9 @@ body {
   font-weight: normal;
   font-style: normal;
   }  
+
+.inner-container {
+  width : 1250px;
+  margin : 0 auto;
+  position: relative;
 }
