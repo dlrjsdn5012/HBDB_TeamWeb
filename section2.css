@@ -6,7 +6,6 @@
 .roadmap{
 position: relative;
 left: 23px;
-top: 100px;
 font-size: 40px;
 line-height: 35px;
 
@@ -132,12 +131,10 @@ color: #000000;
 .beigeline {
     position: absolute;
     width: 1400px;
-    height: 100px;
-    height: 7px;
+    height: 9px;
     left: 209px;
-    top: 370px;
     border-bottom: 5px solid #E2B384;
-    top: 470px;
+    top: 485px;
     background-color: #E2B384;
 }
 
@@ -182,6 +179,7 @@ color: #000000;
 }
 
 .PMSM {
+    display: none;
     position: absolute;
     color: black;
     top: 610px;
@@ -191,9 +189,10 @@ color: #000000;
   }
   
 .SYSM {
+    display: none;
     position: absolute;
     color: black;
-    top: 610px;
+    top: 265px;
     left: 1180px;
     font-size: 20px;
     width: 215px;
