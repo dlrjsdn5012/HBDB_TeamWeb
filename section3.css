@@ -25,11 +25,10 @@
     height: 400px;
     left: 0px;
     background:#DCC49C;
-    /* position: relative; */
-    /* top : -675px; */
-    z-index: 3;
     border-bottom : 5px solid #294572;
     margin-top : -680px;
+    position: relative;
+    z-index: 4;
 }
 
 .trione {
@@ -40,7 +39,7 @@
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
     position : relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .tritwo {
@@ -67,7 +66,6 @@
 
 .firstValueText {
     padding-top : 170px;
-    z-index: 4;
 }
 
 .secondValueText {
