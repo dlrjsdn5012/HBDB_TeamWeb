@@ -2,9 +2,8 @@
 
 .section3 {
     position : relative;
-    margin-top : 100px;
+    margin-top : -200px;
     width : auto;
-    
 }
 
 .firstValue {
@@ -26,10 +25,11 @@
     height: 400px;
     left: 0px;
     background:#DCC49C;
-    position: relative;
-    top : -418px;
+    /* position: relative; */
+    /* top : -675px; */
     z-index: 3;
     border-bottom : 5px solid #294572;
+    margin-top : -680px;
 }
 
 .trione {
@@ -50,11 +50,10 @@
     border-bottom : 338px solid #DCC49C;
     border-right : 1915px solid transparent;
     border-left : 0px solid transparent;
-    position : absolute;
-    top : 1015px;
-    z-index: 3;
+    position : relative;
+    top : -675px;
+    z-index: 2;
 }
-  
 
 
 /* 텍스트!! */
