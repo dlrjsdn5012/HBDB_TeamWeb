@@ -127,22 +127,25 @@
 
 .diagonal3 {
     position: absolute;
-    width: 6px;
+    width: 11px;
     height: 300px;
     margin-left: 100%;
     top: 430px;
     background-color: #DFC9A4;
     transform: rotate(90deg);
+    background-color: white;
+    border-left:11px dotted #DFC9A4;
   }
 
 .diagonal4 {
     position: absolute;
-    width: 6px;
+    width: 11px;
     height: 800px;
     margin-left: 40%;
     top: 80px;
-    background-color: #DFC9A4;
     transform: rotate(-75deg);
+    background-color: white;
+    border-right:11px dotted #DFC9A4;
   }
 
 .SM {
