@@ -10,6 +10,7 @@
 }
 
 button {
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7 {
   border: none;
   outline: 0;
   font-family: 'MaruBuri-Regular';
@@ -28,7 +29,6 @@ button {
   cursor: pointer;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  
 }
 
 button:hover {
