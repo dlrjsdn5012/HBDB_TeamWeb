@@ -2,6 +2,8 @@
   width: 200%;
   height: 800px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -80,3 +82,38 @@
 }
 
 /* button */
+
+/* .content-btns button {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 50%;
+  margin-top: -25px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer; 
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 100;
+  
+  -webkit-user-select: none;  
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -ms-user-select: none;
+  
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.content-btns button img {
+  margin-top: 5px;
+}
+
+.content-btns button:hover{
+  background:rgba(255, 255, 255, 0.5); 
+}
+
+.content-btn-right{left: 1366px; border-radius:7px 7px 7px 7px;}
+.content-btn-left{left:0px; border-radius:0px 7px 7px 7px;} */
