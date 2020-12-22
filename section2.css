@@ -4,6 +4,13 @@
     background-color: #faf9f6;
 }
 
+.section2 p {
+  position: absolute;
+  margin-top: 25px;
+  font-size: 20px;
+  color: #DFC9A4;
+}
+
 .roadmap{
     margin-top: 15px;
     font-size: 40px;
