@@ -1,15 +1,15 @@
 .tie{
     background-color: #243B5B;
     padding-bottom: 50px;
+    position: relative;
+    margin: auto;
+    width: auto;
 
 }
 .box{
     text-align: center;
-    margin: auto;
     margin-bottom: 50px;
-    width: auto;
     height: 10px;
-    position: relative;
     border-top : 1px solid gray;
     padding-top : 50px;
 
@@ -19,10 +19,7 @@
 
 .email{
     text-align: center;
-    margin: auto;
-    width: auto;
     /* height: 10px; */
-    position: relative;
 
     font-size: 20px;
     color: #DFC9A4;
@@ -30,9 +27,6 @@
 
 .phonenumber{
     text-align: center;
-    position: relative;
-    margin: auto;
-    width: auto;
     margin-top: 20px;
 
     font-size: 20px;
