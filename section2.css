@@ -1,6 +1,7 @@
 .section2 {
     width: auto;
     height: 1050px;
+    background-color: #faf9f6;
 }
 
 .roadmap{
@@ -133,7 +134,7 @@
     top: 430px;
     background-color: #DFC9A4;
     transform: rotate(90deg);
-    background-color: white;
+    background-color: #faf9f6;
     border-left:11px dotted #DFC9A4;
   }
 
@@ -144,7 +145,7 @@
     margin-left: 40%;
     top: 80px;
     transform: rotate(-75deg);
-    background-color: white;
+    background-color: #faf9f6;
     border-right:11px dotted #DFC9A4;
   }
 
