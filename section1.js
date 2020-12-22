@@ -19,16 +19,12 @@ document.addEventListener('click', function (event) {
     }
 });
 
-window.onload = function() {
-    document.querySelector('content-right').addEventListener('click', function(){
-        document.querySelector('.slide-container').style.transform = 'translate(0vw)'
-    });
+// window.onload = function() {
+//     document.querySelector('.content-btn-right').addEventListener('click', function(){
+//         document.querySelector('.section1').style.transform = 'translate(-100vw)'
+//     });
 
-    document.querySelector('.slide-btn2').addEventListener('click', function(){
-        document.querySelector('.slide-container').style.transform = 'translate(-100vw)'
-    });
-
-    document.querySelector('.slide-btn3').addEventListener('click', function(){
-        document.querySelector('.slide-container').style.transform = 'translate(-200vw)'
-    });
-}
+//     document.querySelector('.content-btn-left').addEventListener('click', function(){
+//         document.querySelector('.section1').style.transform = 'translate(0vw)'
+//     });
+// }
