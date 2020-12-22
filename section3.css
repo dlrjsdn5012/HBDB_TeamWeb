@@ -51,7 +51,7 @@
     border-left : 0px solid transparent;
     position : relative;
     top : -675px;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -97,9 +97,9 @@
 }
 
 .firstValueText:hover, .secondValueText:hover, .thirdValueText:hover {
-    -webkit-transform: scale(1.2,1.2);
-    -moz-transform: scale(1.2,1.2);
-    -o-transform: scale(1.2,1.2);
-    -ms-transform: scale(1.2,1.2);
-    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
 }
