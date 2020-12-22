@@ -6,8 +6,8 @@
     position: relative;
     /* top:-140px; */
     justify-content: center;
-    background-color: #243B5B;
-    height: 1022px;
+    background-color: red;
+    height: 1222px;
     width: auto;
 }
 
@@ -18,11 +18,12 @@
 }
 
 .gallery {
-    display: flex;
-    grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+    display: grid;
+    grid-template-columns:  repeat(3, minmax(400px, 1fr));
+    
     min-height: 100vh;
-    grid-gap: 2rem;
-    margin: 150px 0;
+    grid-gap: 1rem;
+    margin: 150px 0px  ;
 }
 
 .img-container{
@@ -34,7 +35,7 @@
 .img-container img {
      
     width: 350px;
-    height: 600px;
+    height: 300px;
     object-fit: cover;
     transition: all 0.3s ease-out;
     cursor: pointer;
@@ -63,7 +64,8 @@
 
 .sec4box .overcontent {
     position: absolute;
-     margin: 0px 180px;
+    top: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -76,7 +78,7 @@
 .sec4box2 .overcontent {
 
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
