@@ -10,7 +10,7 @@
     text-align: center;
     margin-bottom: 50px;
     height: 10px;
-    border-top : 1px solid gray;
+    border-top : 5px solid #DFC9A4;
     padding-top : 50px;
 
     font-size: 30px;
@@ -32,3 +32,6 @@
     font-size: 20px;
     color: #DFC9A4;
 }
+
+/* color blue:#243B5B
+color brown:#DFC9A4 */
