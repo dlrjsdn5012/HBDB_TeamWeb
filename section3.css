@@ -10,7 +10,7 @@
     height: 400px;
     left: 0px;
     background: #F6F0E6;
-    border-top : 5px solid #294572;
+    /* border-top : 5px solid #294572; */
 }
 
 .secondValue {
@@ -25,7 +25,7 @@
     height: 400px;
     left: 0px;
     background:#DCC49C;
-    border-bottom : 5px solid #294572;
+    /* border-bottom : 5px solid #294572; */
     margin-top : -680px;
     position: relative;
     z-index: 4;
