@@ -10,12 +10,16 @@ document.addEventListener('click', function (event) {
         } else {
             currentContent -= 1;
         }
+        document.querySelector('.content1').style.display = 'flex'
+        document.querySelector('.content2').style.display = 'none'
     } else if (event.target.matches('.content-btn-right')) {
         if (currentContent === 1){
             currentContent = 1;
         } else {
             currentContent += 1;
-        }
+        } 
+        document.querySelector('.content1').style.display = 'none'
+        document.querySelector('.content2').style.display = 'flex'
     }
 });
 

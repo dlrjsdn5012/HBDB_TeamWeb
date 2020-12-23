@@ -83,7 +83,7 @@
 
 /* button */
 
-/* .content-btns button {
+.content-btns button {
   position: absolute;
   width: 50px;
   height: 60px;
@@ -116,4 +116,4 @@
 }
 
 .content-btn-right{left: 1366px; border-radius:7px 7px 7px 7px;}
-.content-btn-left{left:0px; border-radius:0px 7px 7px 7px;} */
+.content-btn-left{left:0px; border-radius:0px 7px 7px 7px;}
