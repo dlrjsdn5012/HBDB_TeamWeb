@@ -2,7 +2,7 @@
   width: 200%;
   height: 800px;
   text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
   display: flex;
@@ -115,5 +115,5 @@
   background:rgba(255, 255, 255, 0.5); 
 }
 
-.content-btn-right{left: 1366px; border-radius:7px 7px 7px 7px;}
-.content-btn-left{left:0px; border-radius:0px 7px 7px 7px;}
+.content-btn-right{left: 1360px; border-radius:7px 7px 7px 7px;}
+.content-btn-left{left:15px; border-radius:0px 7px 7px 7px;}

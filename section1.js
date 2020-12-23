@@ -12,6 +12,7 @@ document.addEventListener('click', function (event) {
         }
         document.querySelector('.content1').style.display = 'flex'
         document.querySelector('.content2').style.display = 'none'
+        document.querySelector('.content1').style.width = '50%'
     } else if (event.target.matches('.content-btn-right')) {
         if (currentContent === 1){
             currentContent = 1;
@@ -20,6 +21,7 @@ document.addEventListener('click', function (event) {
         } 
         document.querySelector('.content1').style.display = 'none'
         document.querySelector('.content2').style.display = 'flex'
+        document.querySelector('.content2').style.width = '50%'
     }
 });
 
