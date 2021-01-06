@@ -29,7 +29,7 @@
 
 
 .img-container{
-
+    position: relative;
     overflow: hidden;
 
 }
@@ -68,8 +68,8 @@
 
 .sec4box .overcontent {
     position: absolute;
-    top: 26.5%;
-    left: 15.5%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -81,9 +81,9 @@
 }
 .sec4box2 .overcontent {
 
-    position: absolute;
-    top: 26.5%;
-    left: 49.0%;
+   
+    top: 50%;
+    left: 50.0%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -96,25 +96,27 @@
 
 
 .sec4box3 .overcontent {
-    position: absolute;
-    
-    top: 26.5%;
-    left: 82.5%;
+  
+  position: absolute;  
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-transform: uppercase;
     font-size: 30px;
-    color: #fff;
+
     color: black;
     white-space: nowrap;
     overflow:hidden;
-  
+     background: red;
+
+
 }
 
 .sec4box4 .overcontent {
     position: absolute;
-    top: 70%;
-    left: 15.5%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-transform: uppercase;
