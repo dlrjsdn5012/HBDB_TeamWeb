@@ -66,10 +66,16 @@
 
 .firstValueText {
     padding-top : 170px;
+    margin-left : 60px;
 }
 
 .secondValueText {
-    padding-top : 350px;
+    padding-top : 380px;
+    margin-left : -70px;
+}
+
+.thirdValueText {
+    margin-left : 60px;
 }
 
 #firstValueMainText, #secondValueMainText, #thirdValueMainText  {
@@ -96,10 +102,18 @@
     transition: 0.5s;
 }
 
-.firstValueText:hover, .secondValueText:hover, .thirdValueText:hover {
+.firstValueText:hover, .thirdValueText:hover{
     -webkit-transform: scale(1.1,1.1);
     -moz-transform: scale(1.1,1.1);
     -o-transform: scale(1.1,1.1);
     -ms-transform: scale(1.1,1.1);
     transform: scale(1.1,1.1);
+}
+
+.secondValueText:hover {
+    -webkit-transform: scale(1.07,1.07);
+    -moz-transform: scale(1.07,1.07);
+    -o-transform: scale(1.07,1.07);
+    -ms-transform: scale(1.07,1.07);
+    transform: scale(1.07,1.07);
 }
