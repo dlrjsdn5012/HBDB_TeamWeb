@@ -35,12 +35,14 @@
 }
 
 .img-container img {
-     
-    width: 350px;
-    height: 300px;
+    width: auto;
+    height: auto;
+    min-width: 300px;
+    min-height: 150px;
     object-fit: cover;
     transition: all 0.3s ease-out;
     cursor: pointer;
+
 
 }
 
@@ -56,7 +58,7 @@
 
     opacity: .5;
 
-    transform: scale(1.1);
+    transform: scale(1.025);
    
 }
 
@@ -122,6 +124,11 @@
     overflow:hidden;
   
 }
+.sec4box5 {
+    margin: auto 10vh;
+  
+
+}
 
 .sec4box5 .overcontent {
     position: absolute;
@@ -134,9 +141,10 @@
     color: black;
     white-space: nowrap;
     overflow:hidden;
+
   
 }
-
+/*
 .sec4box6 .overcontent {
     position: absolute;
     top: 70%;
@@ -149,7 +157,8 @@
     white-space: nowrap;
     overflow:hidden;
   
-}
+}*/
+
 
 
 .overcontent a{
@@ -203,6 +212,14 @@
     transform: translate(-50%, -50%) scale(1);
 }
 
+.gamsa {
+    position: relative;
+
+    width: 130vh;
+    display: flex;
+    left: 35%;
+
+}
 
 
 /*{
