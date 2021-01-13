@@ -78,7 +78,7 @@
     white-space: nowrap;
     overflow:hidden;
     text-align: center;
-
+   
 }
 .sec4box2 .overcontent {
 
@@ -136,7 +136,7 @@
     white-space: nowrap;
     overflow:hidden;
     text-align: center;
-  
+
 }
 .sec4box5 {
     margin: auto 10vh;
@@ -179,12 +179,14 @@
     position: absolute;
     /* text-align: center; */
     left: 10%;
+    top: 5%;
     font-size: 50px;
 }
 .sec4sogae {
     position: absolute;
     left: 10%;
     top: 12%;
+    font-size: 25px;
     /* top:10%; */
 }
 /*
@@ -216,10 +218,11 @@
     text-align: center;
     padding: 10px;
     cursor: pointer;
-    width: 300px;
-    color: black;
+    width: 240px;
+    color: #F6F0E6;
     font-size: 20px;
     border-radius: 4px;
+    background:#243B5B;
 }
 
 .model {
