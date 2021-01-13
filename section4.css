@@ -67,7 +67,7 @@
 }
 
 .sec4box .overcontent {
- 
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -77,11 +77,12 @@
     color: black;
     white-space: nowrap;
     overflow:hidden;
-  
+    text-align: center;
+
 }
 .sec4box2 .overcontent {
 
-   
+    position: absolute;
     top: 50%;
     left: 50.0%;
     transform: translate(-50%, -50%);
@@ -91,12 +92,18 @@
     color: black;
     white-space: nowrap;
     overflow:hidden;
-  
+    text-align: center;
 }
-
-
-.sec4box3 .overcontent {
+.sec4box2 {
+    /* background: crimson; */
   
+
+}
+.sec4box2 img {
+    margin: 3vh;
+}
+.sec4box3 .overcontent {
+    position: absolute;
 
     top: 50%;
     left: 50%;
@@ -108,13 +115,14 @@
     color: black;
     white-space: nowrap;
     overflow:hidden;
+    text-align: center;
      /* background: red; */
 
 
 }
 
 .sec4box4 .overcontent {
-  
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -124,6 +132,7 @@
     color: black;
     white-space: nowrap;
     overflow:hidden;
+    text-align: center;
   
 }
 .sec4box5 {
@@ -133,8 +142,8 @@
 }
 
 .sec4box5 .overcontent {
-
-    top: 70%;
+    position: absolute;
+    top: 50%;
     left: 50.0%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -143,6 +152,7 @@
     color: black;
     white-space: nowrap;
     overflow:hidden;
+    text-align: center;
 
   
 }
@@ -160,7 +170,11 @@
     overflow:hidden;
   
 }*/
-
+.name{
+    padding: 30px;
+    font-size: 45px;
+  
+}
 
 
 .overcontent a{
@@ -170,6 +184,10 @@
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    width: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 4px;
 }
 
 .model {
