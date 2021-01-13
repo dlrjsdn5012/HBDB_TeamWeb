@@ -94,7 +94,10 @@
     overflow:hidden;
     text-align: center;
 }
-.sec4box2 {
+.sec4box2 .name{
+    position: absolute;
+    left: 35%;
+    top: 87%;
     /* background: crimson; */
   
 
@@ -156,6 +159,34 @@
 
   
 }
+.sec4box4 .name{
+    position: absolute;
+    left: 35%;
+    top: 87%;
+    /* background: crimson; */
+  
+
+}
+.sec4box5 .name{
+    position: absolute;
+    left: 35%;
+    top: 87%;
+    /* background: crimson; */
+  
+
+}
+.sec4title {
+    position: absolute;
+    /* text-align: center; */
+    left: 10%;
+    font-size: 50px;
+}
+.sec4sogae {
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    /* top:10%; */
+}
 /*
 .sec4box6 .overcontent {
     position: absolute;
@@ -171,9 +202,10 @@
   
 }*/
 .name{
-    padding: 30px;
+    text-align: center;
+    /* padding: 30px; */
     font-size: 45px;
-  
+    
 }
 
 
